@@ -1,5 +1,6 @@
 The Odin Project # 1 - Recipes
-Take a look the site live [here](https://dejanpls.github.io/recipes/). 
+
+Take a look at the site live [here](https://dejanpls.github.io/recipes/). 
 
 Practice how to :
 * Build basic html boilerplate from scratch
