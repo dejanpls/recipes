@@ -1,0 +1,21 @@
+.header {
+	text-align: center;
+}
+
+.header .image {
+	height: auto;
+	width: 400px;
+}
+
+.header .title {
+	font-size: 50px;
+}
+
+.header .text {
+	font-size: 18px;
+}
+
+.content {
+	font-family: "Monaco", monospace;
+	font-size: 18px;
+}
