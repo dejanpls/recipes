@@ -1,0 +1,11 @@
+.header .title {
+	font-size: 70px;
+	font-family: "Monaco", monospace;
+	text-align: center;
+}
+
+.header .text {
+	font-size: 24px;
+	font-family: "Monaco", monospace;
+	text-align: center;
+}
