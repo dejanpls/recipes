@@ -1,18 +1,16 @@
-.header .title {
-	font-size: 70px;
+.header .title,
+.header .text,
+.recipe-buttons {
 	font-family: "Monaco", monospace;
 	text-align: center;
+}
+
+.header .title {
+	font-size: 70px;
 }
 
 .header .text {
 	font-size: 24px;
-	font-family: "Monaco", monospace;
-	text-align: center;
-}
-
-.recipe-buttons {
-	font-family: "Monaco", monospace;
-	text-align: center;
 }
 
 .recipe-buttons .button {
