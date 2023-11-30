@@ -11,3 +11,5 @@ Practice how to :
 * Add files to staging area and commit
 * Push the changes to the main branch
 * Restore changes to previous session 
+* Link external .css files with .html file
+* Style website with basic css properties
