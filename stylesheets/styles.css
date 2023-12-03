@@ -1,27 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 .header .title,
 .header .text,
-.recipe-buttons {
+.recipes {
 	font-family: "Monaco", monospace;
 	text-align: center;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 .header .title {
 	font-size: 70px;
+	margin-top: 150px;
+	margin-bottom: 30px;
 }
 
 .header .text {
 	font-size: 24px;
+	margin-bottom: 35px;
 }
 
-.recipe-buttons .button {
-	width: 280px;
-	height: 50px;
-	background-color: #fff;
-	border: 2px solid #000;
+.recipes .recipe-list {
+	text-align: center;
 }
 
-.button .recipe-link {
+.recipe-list .recipe-list-item {
+	list-style: none;
+	display: inline-block;
+}
+
+.recipe-link {
 	font-size: 20px;
 	text-decoration: none;
+	display: inline-block;
 	color: #000;
+	width: 280px;
+	height: 50px;
+	padding-top: 10px;
+	border: 2px solid #000;
 }
