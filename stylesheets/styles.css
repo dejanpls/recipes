@@ -7,7 +7,6 @@
 .container {
 	max-width: 900px;
 	margin: 0 auto;
-	border: 1px solid red;
 	font-family: "Monaco", monospace;
 	text-align: center;
 	
@@ -15,7 +14,7 @@
 
 .header .title {
 	font-size: 70px;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
@@ -28,6 +27,7 @@ div.recipe-card {
 	width: 280px;
 	height: 500px;
 	border: 1px solid #000;
+	display: inline-block;
 }
 
 .recipe-card-container .recipe-card-image {
