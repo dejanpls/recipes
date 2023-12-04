@@ -4,14 +4,13 @@
 	box-sizing: border-box;
 }
 
-.header .title,
-.header .text,
-.recipes,
-.footer {
-	font-family: "Monaco", monospace;
-	text-align: center;
+.container {
 	max-width: 900px;
 	margin: 0 auto;
+	border: 1px solid red;
+	font-family: "Monaco", monospace;
+	text-align: center;
+	
 }
 
 .header .title {
@@ -23,30 +22,4 @@
 .header .text {
 	font-size: 24px;
 	margin-bottom: 35px;
-}
-
-.recipes .recipe-list {
-	text-align: center;
-}
-
-.recipe-list .recipe-list-item {
-	list-style: none;
-	display: inline-block;
-}
-
-.footer {
-	margin-top: 300px;
-}
-.link {
-	text-decoration: none;
-	color: #000;
-}
-
-.recipe-link {
-	font-size: 18px;
-	display: inline-block;
-	width: 290px;
-	height: 50px;
-	padding-top: 10px;
-	border: 2px solid #000;
 }
